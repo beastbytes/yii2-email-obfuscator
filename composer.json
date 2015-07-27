@@ -1,0 +1,23 @@
+{
+    "name": "beastbytes/yii2-emailobfuscator",
+    "description": "Yii2 Widget to obfuscate email addresses",
+    "keywords": ["yii2", "email", "email address", "obfuscate", "obfuscation", "widget"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/beastbytes/yii2-emailobfuscator/issues",
+        "source": "https://github.com/beastbytes/yii2-emailobfuscator"
+    },
+    "authors": [
+        {
+            "name": "Chris Yates",
+            "email": "chris.l.yates@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": { "beastbytes\\emailobfuscator\\": "" }
+    }
+}
