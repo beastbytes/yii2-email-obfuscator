@@ -34,6 +34,7 @@ To output the default message ("This e-mail address is protected to prevent harv
 $emailAddress = EmailObfuscator::widget([
     'address' => 'my.address@example.com'
 ]);
+```
 
 To output the email address as an obfuscated version: "my dot address at example dot com"
 ```php
